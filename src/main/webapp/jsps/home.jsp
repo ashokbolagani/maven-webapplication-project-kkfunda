@@ -46,7 +46,7 @@
 <body>
 
 <header>
-    <marquee> <h1> WELCOME ASHOK DEVOPS ENGINEER </h1> </marquee>
+    <h1>WELCOME ASHOK DEVOPS ENGINEER</h1> 
     <h3>Training | Development | Consulting</h3>
 </header>
 
