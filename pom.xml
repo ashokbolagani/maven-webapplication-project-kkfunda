@@ -105,7 +105,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>admin</name>
-	      <url>http://34.234.86.105:8081/repository/jio-snapshot/</url>
+	      <url>http://34.234.86.105:8081/repository/jio-snaposhot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
