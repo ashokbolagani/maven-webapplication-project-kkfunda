@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>admin</name>
-	      <url>http://54.147.186.224:8081/repository/ashok-bill-release/jio-release/</url>
+	      <url>http:http://34.234.86.105:8081/repository/jio-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>admin</name>
-	      <url>http://54.147.186.224:8081/repository/ashok-bill/</url>
+	      <url>http:http://34.234.86.105:8081/repository/jio-snaposhot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
