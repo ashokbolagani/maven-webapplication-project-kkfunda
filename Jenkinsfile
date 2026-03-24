@@ -53,8 +53,8 @@ pipeline
                  sh """
 
       curl -u kk:password \
---upload-file /var/lib/jenkins/workspace/jio-Declarative-PL-dev/target/maven-web-application.war \
-"http://13.232.234.199:8080/manager/text/deploy?path=/maven-web-application&update=true"
+--upload-file /var/lib/jenkins/workspace/multi-branch-pl/target/maven-web-application.war \
+"http://54.227.15.229:8080/manager/text/deploy?path=/maven-web-application&update=true"
           
         """
               }
