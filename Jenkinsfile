@@ -53,7 +53,7 @@ pipeline
                  sh """
 
       curl -u admin:ashok-1236 \
---upload-file /var/lib/jenkins/workspace/multi-branch-pl/target/maven-web-application.war \
+--upload-file /var/lib/jenkins/workspace/multi-branch-pl_dev/target/maven-web-application.war \
 "http://54.227.15.229:8080/manager/text/deploy?path=/maven-web-application&update=true"
           
         """
