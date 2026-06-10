@@ -11,6 +11,14 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin' 
-          cache: 'maven'        
+          cache: 'maven' 
+      - name: Install maven
+        run: |
+         sudo apt update
+         sudo apt install maven -y
+      - name: Build the artifact
+        run: |
+          maven clean package
+        
       
         
