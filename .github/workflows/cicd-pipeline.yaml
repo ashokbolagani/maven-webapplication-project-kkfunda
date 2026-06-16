@@ -1,6 +1,6 @@
 name: application workflow
 on: 
-  workflow_dispatch: 
+  push: 
 jobs:
   build:
     runs-on: self-hosted
