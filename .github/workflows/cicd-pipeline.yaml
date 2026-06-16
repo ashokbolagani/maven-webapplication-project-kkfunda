@@ -19,7 +19,14 @@ jobs:
           sudo apt install maven -y
       - name: build the artifact
         run: mvn clean package
-        
+  sonarqube:
+    runs-on: self-hosted
+    needs: build
+    steps:
+      - name: sca using sonarqube
+        run: mvn sonar:sonar
+  
+  
         
         
        
