@@ -11,12 +11,16 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: 17
-          distribution: 'tumrin'
+          distribution: 'tumurin'
           cache: maven
       - name: Install maven
         run: |
-        sudo apt update
-        sudo apt install maven -y
+          sudo apt update
+          sudo apt install maven -y
+      - name: build the artifact
+        run: |
+          mvn clean pacakage
+        
         
         
        
