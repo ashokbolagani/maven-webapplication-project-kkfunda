@@ -45,3 +45,7 @@ jobs:
       - name: building the docker image
         run: |
           docker build -t ${{ secrets.Docker_Repository}}:${{ github.sha }} .
+      - name: docker repo login    
+        run: |
+          docker login -u ashok1236/
+          docker push ashok1236/myweb
