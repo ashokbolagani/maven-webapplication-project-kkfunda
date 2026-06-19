@@ -38,3 +38,10 @@ jobs:
           sudo apt-get install trivy
       - name: Trivy Fs Scan
         run: trivy fs --format table -o fs-report.json .
+  docker-build:
+    runs-on: self-hosted
+    needs: security-check
+    steps:
+      - name: building the docker image
+        run: |
+          docker build -t ${{ secrets.Docker_Registery }}:${{ github.sha }}
