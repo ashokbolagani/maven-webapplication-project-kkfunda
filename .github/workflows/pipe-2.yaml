@@ -52,7 +52,7 @@ jobs:
         run: docker push  ${{ secrets.Docker_Repository}}:${{ github.sha }}
       - name: run the container
         run: |
-          docker run -d/
-          -p 8080:8080/
-          --name mycon/
+          docker run -d\
+          -p 8080:8080\
+          --name mycon\
           ${{ secrets.Docker_Repository}}:${{ github.sha }}
