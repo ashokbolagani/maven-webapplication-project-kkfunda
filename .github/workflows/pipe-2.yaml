@@ -44,4 +44,4 @@ jobs:
     steps:
       - name: building the docker image
         run: |
-          docker build -t ${{ secrets.Docker_Registery }}:${{ github.sha }}
+          docker build -t ${{ secrets.Docker_Repository}}:${{ github.sha }}
