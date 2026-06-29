@@ -103,8 +103,8 @@
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>admin</id>
-	      <name>my-snapshot </name>
+	      <id>nexus</id>
+	      <name>my-snapshot</name>
 	      <url>http://98.81.141.195:8081/repository/my-snapshot/</url>
 	    </snapshotRepository>
 	    
