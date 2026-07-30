@@ -100,7 +100,6 @@
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>admin</name>
 	      <url>http://54.147.54.28:8081/repository/my-artifactory/</url>
 	    </snapshotRepository>
 	    
